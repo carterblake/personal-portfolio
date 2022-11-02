@@ -1,0 +1,8 @@
+:root {
+    --primary-red: #CB1217;
+    --text-color: #FFFFFFA6;
+}
+body {
+    background-color: #312E2B;
+    color: var(--text-color);
+}
