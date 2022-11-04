@@ -1,8 +1,84 @@
 :root {
     --primary-red: #CB1217;
-    --text-color: #FFFFFFA6;
+    --light-color: #FFFFFFA6;
 }
+* {
+    font-family: monospace;
+}
+header {
+    margin-left: 10%;
+    height: 150px;
+    background-color: var(--primary-red);
+    color: white;
+}
+
+.header-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+h1 {
+    margin-left: 15px;
+}
+.site-nav ul {
+    text-align: center;
+}
+
+.site-nav li {
+    display: inline;
+    font-size: 16px;
+    margin: 10px;
+}
+
+
+
 body {
     background-color: #312E2B;
     color: var(--text-color);
+}
+.about-me {
+    margin-left: 10%;
+    position: relative;
+}
+.about-me .description {
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    border: 3px solid var(--light-color);
+    background-color: gray;
+    color: #3d3d3d;
+    width: 25%;
+    
+}
+
+.flexbox-container {
+    display: flex;
+    margin-left: 10%;
+}
+
+.flexbox-item {
+    margin: 15px;
+    border: 3px solid var(--light-color);
+    background-color: gray;
+}
+
+.project-primary {
+    min-height: 250px;
+    min-width: 500px;
+}
+
+.flexbox-item h4 {
+    display: flex;
+    background-color: var(--light-color);
+    color: rgb(61, 61, 61);
+}
+
+.project-other {
+    min-height: 100px;
+}
+
+footer {
+    margin-left: 10%;
 }
