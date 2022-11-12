@@ -69,20 +69,20 @@ body {
 .project-primary {
     min-height: 250px;
     min-width: 400px;
-    background-image: url(/assets/project1.png);
+    background-image: url(assets/project1.png);
 }
 
 .project-two {
-    background-image: url(/assets/project2.png);
+    background-image: url(assets/project2.png);
 }
 .project-three {
-    background-image: url(/assets/project3.png);
+    background-image: url(assets/project3.png);
 }
 .project-four {
-    background-image: url(/assets/project4.png);
+    background-image: url(assets/project4.png);
 }
 .project-five {
-    background-image: url(/assets/project5.png);
+    background-image: url(assets/project5.png);
 }
 .flexbox-item h4 {
     background-color: var(--light-color);
