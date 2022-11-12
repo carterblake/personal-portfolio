@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./assets/reset.css" rel="reset">
     <link href="./assets/style.css" rel="stylesheet">
     <title>Carter Blake's Portfolio</title>
     <link rel="icon" type="image/png" href="./assets/initials-logo.png">
@@ -21,16 +22,16 @@
 
             <ul class="site-nav-list">
                 <li>
-                    <a hrerf="#">About Me</a>
+                    <a href="#about-me">About Me</a>
                 </li>
                 <li>
-                    <a hrerf="#">Work</a>
+                    <a href="#work">Work</a>
                 </li>
                 <li>
-                    <a hrerf="#">Contact Me</a>
+                    <a href="#bottom">Contact Me</a>
                 </li>
                 <li>
-                    <a hrerf="#">Resume</a>
+                    <a href="/assets/resume.png">Resume</a>
                 </li>
 
             </ul>
@@ -40,59 +41,61 @@
 </header>
 
 <body>
-    <div class="about-me">
+    <div id="about-me" class="about-me">
         <img src="/assets/me-sitting.png" alt="image of carter blake sitting"/>
         <div class="description">
-            <h4>
+            <h3>
                 About Me
-            </h4>
+            </h3>
             <p>
-                I am a filler text rawr <br/>
-                i count money I am super motivated interior<br/>
-                alligator gremlim cremlin crocs and also socks too<br/>
-                did you know that the meaning of life is<br/>
-                ahhhhhhhhhhhhhh haha you thought
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br/>
+                sed do eiusmod tempor incididunt<br/>
+                ut labore et dolore magna aliqua<br/>
             </p>
         </div>
     </div>
     <div class="flexbox-container">
-        <div class="flexbox-item project-primary">
+        <div id="work" class="flexbox-item project-primary">
             <h4>
-                Project 1
+                project 1
             </h4>
         </div>
-        <div class="flexbox-item project-other">
+        <div class="flexbox-item project-two">
             <h4>
                 project 2
             </h4>
         </div>
-        <!--<div class="flexbox-item project-other">
+        <div class="flexbox-item project-three">
             <h4>
                 project 3
             </h4>
         </div>
-        <div class="flexbox-item project-other">
+        <div class="flexbox-item project-four">
             <h4>
                 project 4
             </h4>
         </div>
-        <div class="flexbox-item project-other">
+        <div class="flexbox-item project-five">
             <h4>
                 project 5
             </h4>
-        </div>-->
+        </div>
     </div>
 </body>
 
-<footer>
-    <h2>
-        Contact Me
-    </h2>
+<footer id="bottom">
     <div class="footer-container">
-        <ul>
+        <h2>
+            Contact Me
+        </h2>
+        <ul class="connection-nav">
             <li>
                 <a href="tel:+ 16125558631">Call or Text Me</a>
+            </li>
+            <li>
                 <a href="mailto:carterblake17@gmail.com">Email Me</a>
+            </li>
+            <li>
                 <a href="https://github.com/carterblake">GitHub Me</a>
             </li>
         </ul>
